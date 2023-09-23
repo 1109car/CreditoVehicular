@@ -1,0 +1,211 @@
+
+body{
+    background-color: #edf0fc;
+    z-index: 2;
+    
+}
+
+.container {
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 30% 30%;
+    border: solid black 1px;
+    margin-left: 2%;
+    margin-right: 2%;
+    left: 2.5%;
+    border-radius: 10px;
+    grid-gap: 20px;
+
+    width: 90%;
+    height: 60vh;
+    
+    bottom: 15%;
+    
+  }
+  .col{
+    display: grid;
+    justify-content: center;
+    
+    border-radius: 5%;
+  }
+  .h2{
+    padding: 1%;
+    position: absolute;
+    display: inline-block;
+    font-size: 150%;
+    left: 5%;
+    font-family:"Sofia Pro";
+     height: 10vh;
+     color: #000;
+    top: 6%;
+    text-decoration:overline;
+  }
+  .h3{
+    padding: 2%;
+    position: absolute;
+    bottom: 40%;
+  }
+  .p{
+    position: absolute;
+    width: 25%;
+    height: 12vh;
+    bottom: 22%;
+    left: 6%;
+  }
+  .span{
+    position: absolute;
+    bottom: 22%;
+    left: 6%;
+  }
+  .cotizalo{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 9%;
+    left: 12.2%;
+    text-decoration: none;
+    box-shadow: 0 1px 4px #0205204d;
+    border-radius: 22px;
+    font-weight: 700;
+    color: #fff;
+    width: 13%;
+    height: 5vh;
+    background-color: rgb(205, 57, 145);
+  }
+  .inputtres{
+     position: absolute;
+     color: #000;
+     height: 6vh;
+     width: 15%;
+     top: 30%;
+     left: 12%;
+     border-radius: 12%;
+     border: none;
+  }
+  .fechad{
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    font-weight: 700;
+    color:rgb(19, 21, 98);
+  }
+  .ofert{
+    position: absolute;
+    font-family:"Sofia Pro";
+    padding: 2.2%;
+    top: 2%;
+  }
+  .fechadd{
+     position: absolute;
+     bottom: 70%;
+     left: 43.4%;
+     font-weight: 700;
+     color:rgb(19, 21, 98);
+  }
+  .pp{
+    position: absolute;
+    bottom: 31%;
+    left: 43.5%;
+    color:rgb(19, 21, 98);
+  font-weight: 700;
+    
+  }
+  .number{
+    position: absolute;
+    height: 5vh;
+    top: 31%;
+    background-color: #0099CC;
+    border: none;
+    border-radius: 22px;
+    left: 43.5%;
+    box-shadow: 0 1px 4px #0205204d;
+  }
+  .spann{
+    position: absolute;
+    bottom: 3%;
+    font-size: 10px;
+    
+    width: 25%;
+    left: 37%;
+    
+    
+  }
+  input[type="number"]{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+    color: #fff;
+    
+  }
+  input::placeholder{
+    color: #fff;
+    font-weight: 700;
+  }
+.h33{
+  position: absolute;
+  bottom: 39.7%;
+  padding: 2%;
+}
+.number2{
+  position: absolute;
+  display: flex;
+ justify-content: center;
+  bottom: 21%;
+  left: 43.5%;
+  border-radius: 22px;
+  background-color: #0099CC;
+  box-shadow: 0 1px 4px #0205204d;
+  border: none;
+  height: 5vh;
+}
+.ofer{
+  position: absolute;
+  font-family:"Sofia Pro";
+  top: 9%;
+  left:69%;
+}
+.fech{
+  position: absolute;
+  color:rgb(19, 21, 98);
+  left: 75%;
+  font-weight: 700;
+  top: 25.5%;
+}
+.numbe{
+  position: absolute;
+  background-color: #0099CC;
+  box-shadow: 0 1px 4px #0205204d;
+  bottom: 60.8%;
+  left: 75.3%;
+  border: none;
+  height: 5vh;
+  border-radius: 22px;
+}
+.t{
+  left: 67%;
+}
+.pn{
+  position: absolute;
+  color:rgb(19, 21, 98);
+  bottom: 29.2%;
+  font-weight: 700;
+  left: 75.5%;
+}
+.numbe2{
+  position: absolute;
+  box-shadow: 0 1px 4px #0205204d;
+  height: 5vh;
+  left: 75.6%;
+  border: none;
+  border-radius: 22px;
+  bottom: 20%;
+  background-color: #0099CC;
+}
+.spa{
+  position: absolute;
+  bottom: 3%;
+  left: 69%;
+  font-size: 10px
+}
